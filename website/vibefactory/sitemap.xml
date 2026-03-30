@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Vibe Factory sitemap.xml
+  Olaf updates this file every time a new article is published.
+  Add a new <url> block at the top of the <urlset> for each new article.
+  Update <lastmod> on index.html and research.html whenever content changes.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+  <!-- CORE PAGES -->
+  <url>
+    <loc>https://vibefactory.io/</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/research.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ARTICLES — newest first. Olaf adds new entries here after each publish. -->
+
+  <url>
+    <loc>https://vibefactory.io/articles/ai-nemotron-3-super-agentic-benchmarks.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-28</news:publication_date>
+      <news:title>Nemotron 3 Super Scores 85.6% on Agentic Benchmarks</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/freediving-ai-dive-computers-safety.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-28</news:publication_date>
+      <news:title>How AI-Assisted Dive Computers Are Changing Freediving Safety</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/robotics-humanoid-robots-manufacturing-2026.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-27</news:publication_date>
+      <news:title>Humanoid Robots on the Factory Floor: Who's Winning the 2026 Deployment Race</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/security-ai-phishing-surge-2026.html</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-26</news:publication_date>
+      <news:title>AI-Generated Phishing Has Become Indistinguishable</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/freediving-mammalian-dive-reflex.html</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-26</news:publication_date>
+      <news:title>The Mammalian Dive Reflex: What Your Body Does When You Hold Your Breath Underwater</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/sustainability-ai-energy-grids-europe.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25</news:publication_date>
+      <news:title>How AI Is Quietly Becoming the Most Important Tool in Europe's Energy Transition</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/crypto-ai-agent-micropayments.html</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-25</news:publication_date>
+      <news:title>The Quiet Infrastructure Layer Being Built for AI Agent Payments</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/economy-knowledge-work-automation.html</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-24</news:publication_date>
+      <news:title>What AI Actually Does to Knowledge Work</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/tech-google-turboquant.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-23</news:publication_date>
+      <news:title>Google's TurboQuant: 6x Less Memory, 8x Faster</news:title>
+    </news:news>
+  </url>
+
+  <url>
+    <loc>https://vibefactory.io/articles/freediving-depth-records-training-science.html</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>Vibe Factory</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-03-21</news:publication_date>
+      <news:title>Inside the Science of Elite Freediving</news:title>
+    </news:news>
+  </url>
+
+</urlset>

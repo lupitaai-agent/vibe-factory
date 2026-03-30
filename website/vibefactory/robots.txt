@@ -1,0 +1,49 @@
+# Vibe Factory — robots.txt
+# Updated by Olaf after each sitemap change.
+
+# ── STANDARD CRAWLERS ──
+User-agent: *
+Allow: /
+Disallow: /logs/
+Disallow: /olaf/
+Disallow: /archive/
+
+# ── AI ANSWER ENGINE CRAWLERS (explicitly welcome) ──
+# These crawlers index content for Perplexity, ChatGPT, Claude, Gemini answers.
+# Vibe Factory content is optimised for AI citation — keep all allowed.
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# ── SITEMAP ──
+Sitemap: https://vibefactory.io/sitemap.xml

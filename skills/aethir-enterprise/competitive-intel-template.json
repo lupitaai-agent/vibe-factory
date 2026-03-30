@@ -1,0 +1,116 @@
+{
+  "reportMeta": {
+    "title": "Aethir Competitive Intelligence Report",
+    "generatedDate": "2026-03-26T21:11:00+09:00",
+    "quarter": "Q1 2026",
+    "analyst": "Enterprise Team"
+  },
+  "competitors": [
+    {
+      "name": "IO.NET",
+      "category": "Decentralized GPU Network",
+      "threatLevel": "High",
+      "marketPosition": "Direct Competitor",
+      "keyStrengths": [
+        "Large supplier base",
+        "Multi-chain approach",
+        "Established token economy"
+      ],
+      "keyWeaknesses": [
+        "Complex onboarding",
+        "Quality control issues",
+        "Enterprise readiness gaps"
+      ],
+      "marketShare": "18%",
+      "pricingStrategy": "Dynamic auction-based",
+      "technology": {
+        "computeTypes": ["GPU", "CPU"],
+        "blockchain": ["Solana", "Ethereum", "Polygon"],
+        "scheduler": "Proprietary"
+      },
+      "targetSegments": ["AI/ML", "Rendering", "Gaming"],
+      "recentDevelopments": [
+        "Launch of IO Cloud platform",
+        "Integration with Ray framework",
+        "$30M Series A funding"
+      ]
+    },
+    {
+      "name": "Nosana",
+      "category": "Decentralized CI/CD",
+      "threatLevel": "Medium",
+      "marketPosition": "Adjacent Competitor",
+      "keyStrengths": [
+        "Specialized in CI/CD workloads",
+        "Solana-native efficiency",
+        "Fast job execution"
+      ],
+      "keyWeaknesses": [
+        "Niche focus limits TAM",
+        "Smaller network effect",
+        "Limited enterprise features"
+      ],
+      "marketShare": "5%",
+      "pricingStrategy": "Usage-based per minute",
+      "technology": {
+        "computeTypes": ["GPU"],
+        "blockchain": ["Solana"],
+        "scheduler": "Kubernetes-based"
+      },
+      "targetSegments": ["DevOps", "CI/CD", "Container Builds"],
+      "recentDevelopments": [
+        "Focus on AI model training workloads",
+        "Integration with GitHub Actions"
+      ]
+    }
+  ],
+  "aethirPosition": {
+    "valueProposition": [
+      "Enterprise-grade GPU infrastructure",
+      "100% enterprise-grade hardware",
+      "Dedicated compute model (no sharing)",
+      "GDPR compliant with clear data residency"
+    ],
+    "competitiveAdvantages": [
+      "Superior hardware quality and reliability",
+      "Predictable performance (no resource contention)",
+      "Enterprise security and compliance",
+      "Simplified procurement and billing"
+    ],
+    "addressableMarket": {
+      "totalAvailableMarket": "$15.7B",
+      "serviceableAvailableMarket": "$2.3B",
+      "serviceableObtainableMarket": "$470M"
+    }
+  },
+  "insights": [
+    {
+      "priority": "High",
+      "category": "Market Opportunity",
+      "headline": "Enterprise GPU Market Underserved",
+      "description": "Competitors focus on decentralized consumer GPU sharing, leaving enterprise segment with specific compliance and performance requirements underserved.",
+      "implication": "Aethir's dedicated enterprise model captures high-value segment with less direct competition."
+    },
+    {
+      "priority": "Medium",
+      "category": "Competitive Risk",
+      "headline": "IO.NET Expanding Enterprise Features",
+      "description": "IO.NET is introducing enterprise tiers with better quality control, potentially closing the gap with Aethir.",
+      "implication": "Need to accelerate enterprise feature development and strengthen partnerships."
+    },
+    {
+      "priority": "High",
+      "category": "Strategic Initiative",
+      "headline": "Position as Enterprise Alternative",
+      "description": "Market confused about decentralized vs. enterprise GPU solutions. Aethir needs clear positioning.",
+      "implication": "Develop 'Enterprise-Grade Decentralized Compute' narrative and sales collateral."
+    }
+  ],
+  "nextSteps": [
+    "Develop case studies with early enterprise customers",
+    "Create competitive battle cards for sales team",
+    "Monitor IO.NET enterprise feature roadmap monthly",
+    "Explore partnership opportunities with OEM hardware providers",
+    "Commission third-party performance benchmarks"
+  ]
+}

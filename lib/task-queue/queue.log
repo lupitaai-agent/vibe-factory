@@ -1,0 +1,3 @@
+[2026-03-26T11:37:22.572Z] CREATED task:8a2ee5b350aa agent:research priority:high "Research Aethir's main competitors in enterprise GPU compute"
+[2026-03-26T11:37:22.622Z] CREATED task:dc8ab62adc25 agent:research priority:medium "Write comparison of Aethir vs. centralized GPU providers"
+[2026-03-26T11:37:22.645Z] CREATED task:22cee69cbdd3 agent:skill-creator priority:low "Update Aethir skill documentation with new pricing tiers"
