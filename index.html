@@ -390,13 +390,13 @@
     <div class="agaas-right">
       <h4>Join the waitlist</h4>
       <p>Be first when AGAAS launches. Early partners get a custom setup included.</p>
-      <div class="waitlist-form">
-        <input type="text" placeholder="Your name" />
-        <input type="email" placeholder="Your email address" />
-        <input type="text" placeholder="Your use case (optional)" />
-        <button class="btn-primary" onclick="handleWaitlist(event)">Get Early Access →</button>
+      <form class="waitlist-form" id="waitlistForm">
+        <input type="text" id="name" name="name" placeholder="Your name" required />
+        <input type="email" id="email" name="email" placeholder="Your email address" required />
+        <textarea id="useCase" name="useCase" placeholder="Explain what you will be using your AI assistant for (Learning things, Go to Market support, Content generation, etc.)" style="background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius); padding: 12px 16px; color: var(--white); font-size: 14px; font-family: inherit; outline: none; transition: border-color 0.2s; resize: vertical; min-height: 80px;" required></textarea>
+        <button type="submit" class="btn-primary">Get Early Access →</button>
         <p class="coming-soon-note">No spam. Unsubscribe any time.</p>
-      </div>
+      </form>
     </div>
   </div>
 </section>
@@ -424,13 +424,45 @@
 </footer>
 
 <script>
-function handleWaitlist(e) {
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzjR-iBxXcuQJVK3ayr9C_kWFE0dPL1YipzmCLoHk6luNmxZ1QdksDSuVmvZF8KMj30/exec';
+
+document.getElementById('waitlistForm').addEventListener('submit', async (e) => {
   e.preventDefault();
-  const btn = e.target;
-  btn.textContent = '✓ You\'re on the list!';
-  btn.style.background = '#30E000';
-  setTimeout(() => { btn.textContent = 'Get Early Access →'; btn.style.background = ''; }, 3000);
-}
+  const form = e.target;
+  const btn = form.querySelector('button');
+  const originalText = btn.textContent;
+  
+  try {
+    btn.textContent = 'Submitting...';
+    btn.disabled = true;
+    
+    const formData = new FormData(form);
+    const response = await fetch(GOOGLE_SCRIPT_URL, {
+      method: 'POST',
+      body: formData,
+      mode: 'no-cors'
+    });
+    
+    btn.textContent = '✓ You\'re on the list!';
+    btn.style.background = '#30E000';
+    form.reset();
+    
+    setTimeout(() => { 
+      btn.textContent = originalText; 
+      btn.style.background = ''; 
+      btn.disabled = false;
+    }, 4000);
+    
+  } catch (error) {
+    btn.textContent = 'Error — try again';
+    btn.disabled = false;
+    console.error('Submission failed:', error);
+    
+    setTimeout(() => { 
+      btn.textContent = originalText;
+    }, 3000);
+  }
+});
 </script>
 </body>
 </html>
