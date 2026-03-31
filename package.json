@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@sogni-ai/sogni-client": "github:Sogni-AI/sogni-client"
+  }
+}
