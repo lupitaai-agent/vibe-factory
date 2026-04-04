@@ -1,0 +1,19 @@
+# Vibe Factory Metrics Dashboard — Weekly Update Cron
+# Schedule: Sunday @ 11 PM CET (23:00 Amsterdam time)
+# Equivalent: 0 23 * * 0 (in UTC/cron syntax; adjust for DST if needed)
+
+# Cron expression: Sunday 23:00 CET
+# Note: CET is UTC+1 (standard time) or CEST is UTC+2 (daylight saving)
+# For Amsterdam (Europe/Amsterdam): 0 23 * * 0
+# This runs every Sunday at 23:00 server time (adjust TZ as needed)
+
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+WORKSPACE=/config/.openclaw/workspace
+
+# Sunday @ 11 PM CET
+0 23 * * 0 cd $WORKSPACE && /bin/bash $WORKSPACE/scripts/update-metrics.sh >> $WORKSPACE/logs/metrics-cron.log 2>&1
+
+# Alternative: If server runs in UTC, use 22:00 (23:00 CET - 1h for DST, or 21:00 in winter)
+# For full automation, consider using a scheduling daemon like at or systemd.timer
+

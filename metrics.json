@@ -1,0 +1,159 @@
+{
+  "lastUpdated": "2026-04-04T15:00Z",
+  "sprints": [
+    {
+      "id": "sprint-1",
+      "name": "Sprint 1 — Schema & Citation Optimization",
+      "dates": "Apr 2-3, 2026",
+      "focus": "JSON-LD Schema + Author Entity + AI Citation Optimization",
+      "hypotheses": ["h1", "h2", "h3"],
+      "status": "complete",
+      "commits": ["9557077"],
+      "expectedImpact": "+15-25% AI citation rate"
+    }
+  ],
+  "metrics": {
+    "ai_citation_rate": {
+      "name": "AI Citation Rate",
+      "current": "baseline_pending",
+      "unit": "%",
+      "description": "Percentage of mentions that cite Vibe Factory content across Perplexity, ChatGPT, Claude, and other major AI systems",
+      "dataSource": "Semrush API, Ahrefs, manual audit via AI systems",
+      "target": "Establish baseline by Apr 10, then +15-25% per sprint",
+      "history": []
+    },
+    "organic_traffic": {
+      "name": "Organic Traffic",
+      "current": "baseline_pending",
+      "unit": "monthly_sessions",
+      "description": "Unique users arriving via Google Search (GSC data)",
+      "dataSource": "Google Search Console",
+      "target": "Baseline by Apr 10, target +30% by Q2 end",
+      "history": []
+    },
+    "social_shares": {
+      "name": "Social Shares",
+      "current": 0,
+      "unit": "count",
+      "description": "Total shares via integrated share buttons + manual X/LinkedIn posts",
+      "dataSource": "Site tracking + platform APIs",
+      "target": "10+ per article within 48h",
+      "history": []
+    },
+    "pages_per_session": {
+      "name": "Pages Per Session",
+      "current": "baseline_pending",
+      "unit": "avg",
+      "description": "Average pages viewed per user session",
+      "dataSource": "Google Analytics 4",
+      "target": "Increase from baseline by 20%",
+      "history": []
+    },
+    "bounce_rate": {
+      "name": "Bounce Rate",
+      "current": "baseline_pending",
+      "unit": "%",
+      "description": "Percentage of single-page sessions",
+      "dataSource": "Google Analytics 4",
+      "target": "Reduce by 15% through better internal linking",
+      "history": []
+    },
+    "avg_time_on_page": {
+      "name": "Avg. Time on Page",
+      "current": "baseline_pending",
+      "unit": "seconds",
+      "description": "Average time spent per article",
+      "dataSource": "Google Analytics 4",
+      "target": "3+ minutes for research pieces",
+      "history": []
+    }
+  },
+  "hypotheses": [
+    {
+      "id": "h1",
+      "sprint": "sprint-1",
+      "name": "NewsArticle + Author schema increases AI citations",
+      "description": "AI models leverage structured data (NewsArticle schema, author entity, datePublished) to identify authoritative sources. Implementing proper schema should increase citation frequency.",
+      "metric": "ai_citation_rate",
+      "expectedImpact": "+15-25%",
+      "reasoning": "AI systems like Perplexity and ChatGPT use schema.org markup to understand content authority and relevance. Explicit NewsArticle + Author entity signals ownership and expertise.",
+      "testDate": "2026-04-10",
+      "actualImpact": "pending",
+      "status": "in_progress",
+      "conclusion": ""
+    },
+    {
+      "id": "h2",
+      "sprint": "sprint-1",
+      "name": "Internal linking improves pages per session",
+      "description": "Strategic internal links from summary/conclusion sections to related research increases session depth and time on site.",
+      "metric": "pages_per_session",
+      "expectedImpact": "+20%",
+      "reasoning": "Users follow contextual links when they're relevant. Better structure = more exploration = longer sessions = better SEO signals.",
+      "testDate": "2026-04-10",
+      "actualImpact": "pending",
+      "status": "in_progress",
+      "conclusion": ""
+    },
+    {
+      "id": "h3",
+      "sprint": "sprint-1",
+      "name": "Keyword optimization increases organic visibility",
+      "description": "Targeting high-intent, low-competition keywords in headers and early paragraphs improves organic search rankings.",
+      "metric": "organic_traffic",
+      "expectedImpact": "+30%",
+      "reasoning": "Primary keywords in H1, featured snippet optimization, and long-form content targeting question-based searches improve SERP position.",
+      "testDate": "2026-04-15",
+      "actualImpact": "pending",
+      "status": "in_progress",
+      "conclusion": ""
+    }
+  ],
+  "backlog": [
+    {
+      "id": "task-1",
+      "sprint": 2,
+      "priority": "high",
+      "title": "Implement link reclamation",
+      "description": "Identify unlinked mentions of Vibe Factory and reach out for citations",
+      "estimatedImpact": "10-20% organic traffic increase",
+      "category": "SEO"
+    },
+    {
+      "id": "task-2",
+      "sprint": 2,
+      "priority": "high",
+      "title": "AI answer engine submission",
+      "description": "Submit content directly to Perplexity, ChatGPT, and Claude plugins for faster indexing",
+      "estimatedImpact": "Reduce AI citation lag from 2-3 weeks to 3-5 days",
+      "category": "AAIO"
+    },
+    {
+      "id": "task-3",
+      "sprint": 2,
+      "priority": "medium",
+      "title": "Featured snippet optimization",
+      "description": "Restructure top articles to target Google Featured Snippets",
+      "estimatedImpact": "+5-10% organic traffic (position 0 effect)",
+      "category": "SEO"
+    },
+    {
+      "id": "task-4",
+      "sprint": 3,
+      "priority": "medium",
+      "title": "Implement generative discovery tags",
+      "description": "Add GEO-specific metadata for Google's generative discovery results",
+      "estimatedImpact": "Enable Google SGE placement (new traffic channel)",
+      "category": "GEO"
+    },
+    {
+      "id": "task-5",
+      "sprint": 3,
+      "priority": "low",
+      "title": "Social engagement loop",
+      "description": "Implement reply-to-comments system on X posts with relevant article links",
+      "estimatedImpact": "Increase social shares by 25%",
+      "category": "Social"
+    }
+  ]
+}
