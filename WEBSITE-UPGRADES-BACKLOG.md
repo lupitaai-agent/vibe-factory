@@ -159,12 +159,16 @@
 
 ## Sprint Schedule
 
-| Sprint | Dates | Focus | Owner |
-|--------|-------|-------|-------|
-| 1 | Apr 2-3 | Critical fixes (schema, dates, citations, homepage) | Olaf |
-| 2 | Apr 9-10 | Author presence + category pages + related articles | Olaf |
-| 3 | Apr 16-17 | Social buttons + progress + speed optimization | Olaf |
-| 4+ | Apr 23+ | LLMs.txt, API, archive view, future features | Olaf |
+Sprints run on unified week cycles: **Wednesday @ 1 AM CET + Saturday @ 1 AM CET = one sprint week**
+
+| Sprint | Week | Wed Date | Sat Date | Focus | Owner |
+|--------|------|----------|----------|-------|-------|
+| 1 | Apr 2-3 | Apr 1 | Apr 4 | Critical fixes (schema, dates, citations, homepage) | Olaf |
+| 2 | Apr 8-12 | Apr 8 | Apr 12 | Author presence + category pages + related articles | Olaf |
+| 3 | Apr 15-19 | Apr 15 | Apr 19 | Social buttons + progress + speed optimization | Olaf |
+| 4+ | Apr 22+ | Apr 22 | Apr 26 | LLMs.txt, API, archive view, future features | Olaf |
+
+**Cycle:** Each sprint spans Wed-to-Sat (2 execution days within a week), allowing for rapid iteration and measurement.
 
 ---
 
@@ -179,5 +183,6 @@
 
 ---
 
-**Last Updated:** 2026-03-31  
-**Next Review:** 2026-04-02 (Sprint 1 execution begins)
+**Last Updated:** 2026-04-04  
+**Sprint Cycle:** Wed @ 1 AM CET + Sat @ 1 AM CET = unified sprint week  
+**Next Execution:** Sprint 2 begins Wed, April 8 @ 1 AM CET

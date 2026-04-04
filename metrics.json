@@ -5,11 +5,42 @@
       "id": "sprint-1",
       "name": "Sprint 1 — Schema & Citation Optimization",
       "dates": "Apr 2-3, 2026",
+      "cycle": "Unified week (Wed Apr 1 @ 1 AM CET, Sat Apr 4 @ 1 AM CET)",
       "focus": "JSON-LD Schema + Author Entity + AI Citation Optimization",
       "hypotheses": ["h1", "h2", "h3"],
       "status": "complete",
       "commits": ["9557077"],
       "expectedImpact": "+15-25% AI citation rate"
+    },
+    {
+      "id": "sprint-2",
+      "name": "Sprint 2 — Authority & Navigation",
+      "dates": "Apr 8-12, 2026",
+      "cycle": "Unified week (Wed Apr 8 @ 1 AM CET, Sat Apr 12 @ 1 AM CET)",
+      "focus": "Author Entity Completion + Category Landing Pages + Internal Linking + Related Articles",
+      "hypotheses": ["h4", "h5", "h6"],
+      "status": "pending",
+      "expectedImpact": "+20% pages per session, improved E-E-A-T signals"
+    },
+    {
+      "id": "sprint-3",
+      "name": "Sprint 3 — UX & Performance",
+      "dates": "Apr 15-19, 2026",
+      "cycle": "Unified week (Wed Apr 15 @ 1 AM CET, Sat Apr 19 @ 1 AM CET)",
+      "focus": "Social Share Buttons + Reading Progress Indicator + Site Speed Optimization",
+      "hypotheses": ["h7", "h8", "h9"],
+      "status": "pending",
+      "expectedImpact": "+10% organic traffic, improved page load times"
+    },
+    {
+      "id": "sprint-4",
+      "name": "Sprint 4+ — Discovery & API",
+      "dates": "Apr 22+, 2026",
+      "cycle": "Unified week (Wed Apr 22 @ 1 AM CET, Sat Apr 26 @ 1 AM CET, recurring)",
+      "focus": "LLMs.txt Enhancement + Research API Endpoint + Archive/Timeline View + Future Features",
+      "hypotheses": ["h10", "h11", "h12"],
+      "status": "pending",
+      "expectedImpact": "Improved AI discoverability, integration opportunities"
     }
   ],
   "metrics": {
